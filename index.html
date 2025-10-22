@@ -82,16 +82,16 @@
         <!-- 4. Kalender-Sektion -->
         <div>
             <h2 class="text-2xl font-bold mb-4 text-center">Buchen Sie hier direkt Ihren Termin für meine Dienstreise</h2>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden min-h-[400px]">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
                 <!-- 
                   TODO: Ersetzen Sie diesen Bereich mit Ihrem Calendly-Embed-Code.
                   Gehen Sie in Calendly zu dem Event-Typ (z.B. "Kaffeetreffen Jena"),
                   klicken Sie auf "Teilen" -> "Zur Website hinzufügen" -> "Inline-Einbettung" und kopieren Sie den Code hierher.
                 -->
-                <div class="p-10 text-center text-gray-500">
-                    <p class="font-bold text-lg">Hier wird Ihr Calendly-Kalender eingebettet.</p>
-                    <p>Bitte ersetzen Sie diesen Block durch den Embed-Code von Calendly.</p>
-                </div>
+                <!-- Calendly inline widget begin -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/claas-koehler/besuch-vor-ort?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                <!-- Calendly inline widget end -->
             </div>
         </div>
 
@@ -132,3 +132,4 @@
 
 </body>
 </html>
+
