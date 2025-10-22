@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ihr persönliches Gespräch</title>
+    <!-- Lädt Tailwind CSS für das Styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lädt die "Inter" Schriftart -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Wendet die Inter-Schriftart als Standard an */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Hauptcontainer -->
+    <div class="container mx-auto max-w-4xl p-6 md:p-12">
+
+        <!-- 1. Personalisierte Begrüßung -->
+        <!-- Das JavaScript wird diesen Text ändern -->
+        <h1 id="greeting" class="text-3xl md:text-4xl font-bold text-blue-800 mb-4">
+            Herzlich Willkommen!
+        </h1>
+        <p class="text-lg text-gray-600 mb-8">
+            Ich bin bald in Ihrer Region (z.B. Thüringen/Jena) unterwegs und würde mich freuen, Sie persönlich kennenzulernen.
+        </p>
+
+        <!-- 2. Video-Sektion -->
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">Wer ich bin und worüber wir sprechen könnten</h2>
+            <div class="aspect-video bg-gray-200 rounded-lg shadow-md overflow-hidden">
+                <!-- 
+                  TODO: Ersetzen Sie dies mit Ihrem Video-Embed-Code (z.B. von YouTube, Vimeo oder Loom).
+                  Ein Loom-Video (Aufnahme von Bildschirm + Kamera) ist hier oft sehr effektiv.
+                  Beispiel-Code für ein YouTube-Video:
+                  <iframe class="w-full h-full" src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                -->
+                <img src="https://placehold.co/1600x900/1e3a8a/ffffff?text=Hier+kommt+Ihr+Video+hin" alt="Video-Platzhalter" class="w-full h-full object-cover">
+            </div>
+            <p class="text-sm text-gray-500 mt-2">Ein kurzes Video (ca. 90 Sekunden) über mich, unsere Arbeitsweise und eine mögliche Agenda für ein Gespräch.</p>
+        </div>
+
+        <!-- 3. Team-Sektion -->
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold mb-6 text-center">Unser Headhunting-Team</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- TODO: Ersetzen Sie die Platzhalter durch die echten Daten Ihres Teams -->
+                
+                <!-- Teammitglied 1 -->
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <img src="https://placehold.co/200x200/e0e7ff/374151?text=Team+1" alt="Foto Teammitglied 1" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-blue-100">
+                    <h3 class="font-bold text-lg">Anna Schmidt</h3>
+                    <p class="text-sm text-blue-700">Senior Consultant</p>
+                </div>
+                <!-- Teammitglied 2 -->
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <img src="https://placehold.co/200x200/e0e7ff/374151?text=Team+2" alt="Foto Teammitglied 2" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-blue-100">
+                    <h3 class="font-bold text-lg">Markus Weber</h3>
+                    <p class="text-sm text-blue-700">Managing Partner</p>
+                </div>
+                <!-- Teammitglied 3 -->
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <img src="https://placehold.co/200x200/e0e7ff/374151?text=Team+3" alt="Foto Teammitglied 3" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-blue-100">
+                    <h3 class="font-bold text-lg">Sarah Becker</h3>
+                    <p class="text-sm text-blue-700">Head of Research</p>
+                </div>
+                <!-- Teammitglied 4 -->
+                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                    <img src="https://placehold.co/200x200/e0e7ff/374151?text=Team+4" alt="Foto Teammitglied 4" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-blue-100">
+                    <h3 class="font-bold text-lg">Tom Klein</h3>
+                    <p class="text-sm text-blue-700">Consultant IT</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. Kalender-Sektion -->
+        <div>
+            <h2 class="text-2xl font-bold mb-4 text-center">Buchen Sie hier direkt Ihren Termin für meine Dienstreise</h2>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden min-h-[400px]">
+                <!-- 
+                  TODO: Ersetzen Sie diesen Bereich mit Ihrem Calendly-Embed-Code.
+                  Gehen Sie in Calendly zu dem Event-Typ (z.B. "Kaffeetreffen Jena"),
+                  klicken Sie auf "Teilen" -> "Zur Website hinzufügen" -> "Inline-Einbettung" und kopieren Sie den Code hierher.
+                -->
+                <div class="p-10 text-center text-gray-500">
+                    <p class="font-bold text-lg">Hier wird Ihr Calendly-Kalender eingebettet.</p>
+                    <p>Bitte ersetzen Sie diesen Block durch den Embed-Code von Calendly.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Das JavaScript für die Personalisierung -->
+    <script>
+        // Diese Funktion wird ausgeführt, sobald die Seite geladen ist
+        window.onload = function() {
+            try {
+                // 1. Hole die URL-Parameter (alles nach dem '?')
+                const urlParams = new URLSearchParams(window.location.search);
+
+                // 2. Suche nach einem Parameter namens 'name'
+                const name = urlParams.get('name');
+
+                // 3. Finde das HTML-Element mit der ID 'greeting'
+                const greetingElement = document.getElementById('greeting');
+
+                if (name && greetingElement) {
+                    // 4. Wenn ein Name gefunden wurde, setze den Text
+                    // (z.B. aus "?name=Herr Müller" wird "Servus Herr Müller!")
+                    greetingElement.textContent = `Servus ${name}!`;
+                } else if (greetingElement) {
+                    // 5. Fallback, falls kein Name übergeben wurde
+                    greetingElement.textContent = 'Servus und Herzlich Willkommen!';
+                }
+            } catch (e) {
+                console.error("Fehler bei der Personalisierung:", e);
+                // Fallback, falls etwas schiefgeht
+                const greetingElement = document.getElementById('greeting');
+                if (greetingElement) {
+                    greetingElement.textContent = 'Herzlich Willkommen!';
+                }
+            }
+        };
+    </script>
+
+</body>
+</html>
