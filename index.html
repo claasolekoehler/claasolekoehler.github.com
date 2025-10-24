@@ -1,283 +1,118 @@
 <!DOCTYPE html>
-
 <html lang="de">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Besuch nächste Woche</title>
-
-    <!-- Lädt Tailwind CSS für das Styling -->
-
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- Lädt die "Inter" Schriftart -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
     <style>
-
         /* Wendet die Inter-Schriftart als Standard an */
-
         body {
-
             font-family: 'Inter', sans-serif;
-
         }
-
     </style>
-
 </head>
 
-<body class="bg-gray-50 text-gray-800">
-
-
-
-    <!-- Hauptcontainer -->
+<body class="bg-white text-[#1c4d3b]">
 
     <div class="container mx-auto max-w-4xl p-6 md:p-12">
 
-
-
-        <!-- 1. Personalisierte Begrüßung -->
-
-        <!-- Das JavaScript wird diesen Text ändern -->
-
-        <h1 id="greeting" class="text-3xl md:text-4xl font-bold text-blue-800 mb-4">
-
+        <h1 id="greeting" class="text-3xl md:text-4xl font-bold text-[#1c4d3b] mb-4">
             Herzlich Willkommen!
-
         </h1>
-
-        <p class="text-lg text-gray-600 mb-8">
-
+        <p class="text-lg text-[#808181] mb-8">
             Ich bin nächste Woche in der Region Frankfurt - Mannheim - Gießen unterwegs und würde mich freuen, Sie persönlich kennenzulernen.
-
         </p>
 
-
-
-        <!-- 2. Video-Sektion -->
-
-<div class="mb-12">
+        <div class="mb-12">
             <h2 class="text-2xl font-bold mb-4">Wer ich bin und worüber wir sprechen könnten</h2>
-            
             <div class="rounded-lg shadow-md overflow-hidden">
                  <iframe class="w-full aspect-video block" src="https://www.youtube.com/embed/HM4nfH2uQXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-
         </div>
-
-        <!-- 3. Team-Sektion -->
 
         <div class="mb-12">
-
-            <h2 class="text-2xl font-bold mb-6 text-center">Unser Headhunting-Team</h2>
-
+            <h2 class="text-2xl font-bold mb-6 text-center">Unser Headhunting-Team für D-A-CH</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-
-                <!-- TODO: Ersetzen Sie die Platzhalter durch die echten Daten Ihres Teams -->
-
                 
-
-                <!-- Teammitglied 1 -->
-
                 <div class="bg-white p-4 rounded-lg shadow-md text-center">
-
-                    <!-- HIER: "nathan.jpg" ist der Dateiname, den Sie in GitHub hochladen. Passen Sie ihn bei Bedarf an (z.B. in nathan.png) -->
-
-                    <img src="nathan.jpg" alt="Foto Nathan Falconer" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-blue-100 object-cover" onerror="this.src='https://placehold.co/200x200/e0e7ff/374151?text=Bild+fehlt'; this.onerror=null;">
-
+                    <img src="nathan.jpg" alt="Foto Nathan Falconer" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-[#afc5b8] object-cover" onerror="this.src='https://placehold.co/200x200/e0e7ff/374151?text=Bild+fehlt'; this.onerror=null;">
                     <h3 class="font-bold text-lg">Nathan Falconer</h3>
-
-                    <p class="text-sm text-blue-700">Jagt gerne nach Vertrieblern</p>
-
+                    <p class="text-sm text-[#808181]">Jagt gerne nach Vertrieblern</p>
                 </div>
-
-                <!-- Teammitglied 2 -->
-
                 <div class="bg-white p-4 rounded-lg shadow-md text-center">
-
-                    <!-- HIER: "jake.jpg" ist der Dateiname, den Sie in GitHub hochladen. -->
-
-                    <img src="jake.jpg" alt="Foto Jake Harrison" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-blue-100 object-cover" onerror="this.src='https://placehold.co/200x200/e0e7ff/374151?text=Bild+fehlt'; this.onerror=null;">
-
+                    <img src="jake.jpg" alt="Foto Jake Harrison" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-[#afc5b8] object-cover" onerror="this.src='https://placehold.co/200x200/e0e7ff/374151?text=Bild+fehlt'; this.onerror=null;">
                     <h3 class="font-bold text-lg">Jake Harrison</h3>
-
-                    <p class="text-sm text-blue-700">Fischt leidenschaftlich Serviceleute heraus</p>
-
+                    <p class="text-sm text-[#808181]">Fischt leidenschaftlich Serviceleute heraus</p>
                 </div>
-
-                <!-- Teammitglied 3 -->
-
                 <div class="bg-white p-4 rounded-lg shadow-md text-center">
-
-                    <!-- HIER: "dan.jpg" ist der Dateiname, den Sie in GitHub hochladen. -->
-
-                    <img src="dan.jpg" alt="Foto Dan Ward" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-blue-100 object-cover" onerror="this.src='https://placehold.co/200x200/e0e7ff/374151?text=Bild+fehlt'; this.onerror=null;">
-
+                    <img src="dan.jpg" alt="Foto Dan Ward" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-[#afc5b8] object-cover" onerror="this.src='https://placehold.co/200x200/e0e7ff/374151?text=Bild+fehlt'; this.onerror=null;">
                     <h3 class="font-bold text-lg">Dan Ward</h3>
-
-                    <p class="text-sm text-blue-700">Spürt versteckte Anwendungstechniker auf</p>
-
+                    <p class="text-sm text-[#808181]">Spürt versteckte Anwendungstechniker auf</p>
                 </div>
-
-                <!-- Teammitglied 4 -->
-
                 <div class="bg-white p-4 rounded-lg shadow-md text-center">
-
-                    <!-- HIER: "david.jpg" ist der Dateiname, den Sie in GitHub hochladen. -->
-
-                    <img src="david.jpg" alt="Foto David Evans" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-blue-100 object-cover" onerror="this.src='https://placehold.co/200x200/e0e7ff/374151?text=Bild+fehlt'; this.onerror=null;">
-
+                    <img src="david.jpg" alt="Foto David Evans" class="w-24 h-24 rounded-full mx-auto mb-3 border-4 border-[#afc5b8] object-cover" onerror="this.src='https://placehold.co/200x200/e0e7ff/374151?text=Bild+fehlt'; this.onerror=null;">
                     <h3 class="font-bold text-lg">David Evans</h3>
-
-                    <p class="text-sm text-blue-700">Pirscht seltenen Softwarepersonen hinterher</p>
-
+                    <p class="text-sm text-[#808181]">Pirscht seltenen Softwarepersonen hinterher</p>
                 </div>
-
             </div>
-
         </div>
-
-
-
-        <!-- 4. Kalender-Sektion -->
 
         <div>
-
             <h2 class="text-2xl font-bold mb-4 text-center">Fragen Sie hier Ihren Termin an:</h2>
-
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-
-                <!-- 
-                -->
-
-                <!-- Calendly inline widget begin -->
-
                 <div class="calendly-inline-widget" data-url="https://calendly.com/claas-koehler/besuch-vor-ort?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
-
                 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                </div>
 
-                <!-- Calendly inline widget end -->
-
-            </div>
-
-
-
-            <!-- NEUER KONTAKT-ABSCHNITT -->
-
-            <div class="text-center mt-10 pt-6 border-t border-gray-200">
-
-                <p class="text-lg text-gray-700">
-
+            <div class="text-center mt-10 pt-6 border-t border-[#afc5b8]">
+                <p class="text-lg text-[#808181]">
                     Offene Fragen? Sie erreichen mich direkt unter meiner Mobilnummer:
-
                 </p>
-
-                <!-- Klickbarer Telefonlink mit Icon -->
-
-                <a href="tel:015510523627" class="text-xl text-blue-800 font-semibold mt-2 inline-flex items-center justify-center space-x-2 hover:underline">
-
-                    <!-- Inline SVG Telefon-Icon -->
-
+                <a href="tel:015510523627" class="text-xl text-[#1c4d3b] font-semibold mt-2 inline-flex items-center justify-center space-x-2 hover:underline">
                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-
                         <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.1a1.5 1.5 0 01-1.052 1.767l-2.332.874c.09.261.21.512.36.753l.804.994a11.042 11.042 0 005.44 5.44l.994.804c.24.15.492.27.753.36l.874-2.332a1.5 1.5 0 011.767-1.052l3.1.716A1.5 1.5 0 0118 15.352V16.5A1.5 1.5 0 0116.5 18h-1A13.5 13.5 0 012 4.5v-1z" clip-rule="evenodd" />
-
                     </svg>
-
                     <span>0155 105 23 627</span>
-
                 </a>
-
             </div>
-
-            <!-- ENDE NEUER KONTAKT-ABSCHNITT -->
-
-
-
-        </div>
-
-
-
+            </div>
     </div>
 
-
-
-    <!-- Das JavaScript für die Personalisierung -->
-
     <script>
-
         // Diese Funktion wird ausgeführt, sobald die Seite geladen ist
-
         window.onload = function() {
-
             try {
-
                 // 1. Hole die URL-Parameter (alles nach dem '?')
-
                 const urlParams = new URLSearchParams(window.location.search);
 
-
-
                 // 2. Suche nach einem Parameter namens 'name'
-
                 const name = urlParams.get('name');
 
-
-
                 // 3. Finde das HTML-Element mit der ID 'greeting'
-
                 const greetingElement = document.getElementById('greeting');
-
-
 
                 if (name && greetingElement) {
-
                     // 4. Wenn ein Name gefunden wurde, setze den Text
-
                     // (z.B. aus "?name=Herr Müller" wird "Servus Herr Müller!")
-
                     greetingElement.textContent = `Servus ${name}!`;
-
                 } else if (greetingElement) {
-
                     // 5. Fallback, falls kein Name übergeben wurde
-
                     greetingElement.textContent = 'Servus und Herzlich Willkommen!';
-
                 }
-
             } catch (e) {
-
                 console.error("Fehler bei der Personalisierung:", e);
-
                 // Fallback, falls etwas schiefgeht
-
                 const greetingElement = document.getElementById('greeting');
-
                 if (greetingElement) {
-
                     greetingElement.textContent = 'Herzlich Willkommen!';
-
                 }
-
             }
-
         };
-
     </script>
 
-
-
 </body>
-
 </html>
